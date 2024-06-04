@@ -1,0 +1,5 @@
+{
+    "bucket": "your-s3-bucket-name",
+    "key": "path/to/your/image.jpg"
+  }
+  
