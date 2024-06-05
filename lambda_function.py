@@ -32,7 +32,7 @@ def lambda_handler(event, context):
     s3 = boto3.client('s3')
 
     try:
-        # Get bucket name and image key from the event
+        # Get bucket name and image key from the event (The test event JSON file is in this repository)
         bucket = event['bucket']
         key = event['key']
         
